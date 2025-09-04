@@ -238,7 +238,7 @@ export default function MemoryGame() {
   };
 
   return (
-    <div className="flex flex-col w-full justify-center items-center p-2">
+    <div className="flex bg-white flex-col w-full justify-center items-center p-2">
       {isStarted && !isWinner && (
         <div className="grid grid-cols-4 w-[35%] gap-y-2 border-x-4 border-t-4 rounded-t-2xl border-purple-600 bg-purple-200 p-4 place-items-center">
           {cardsList.map((card, index) => (
